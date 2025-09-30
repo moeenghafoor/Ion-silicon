@@ -1976,3 +1976,40 @@ section,
   font-size: inherit; /* Ensures + matches number size */
   margin-left: 0.1rem; /* Optional: slight spacing */
 }
+
+ .image-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-items: center; 
+      gap: 15px; 
+      margin: 0 auto;
+      max-width: 1200px;
+      align-items: center;
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: 100px;
+      object-fit: contain;
+      background: #f4f4f4;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+
+    @media (max-width:900px){
+      .image-grid {
+        grid-template-columns: (repeat(3, 1fr));
+      }
+    }
+
+    @media (max-width: 600px){
+      .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 400px){
+      .image-grid {
+        grid-template-columns: 1fr;
+      }
+    }
