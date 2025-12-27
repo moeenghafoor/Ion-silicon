@@ -40,7 +40,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f5f9ff;
+  --background-color: #F7F7F7;
   --surface-color: #ffffff;
 }
 
@@ -2003,6 +2003,3 @@ section,
   margin-left: 0.1rem; /* Optional: slight spacing */
 }
 
-.about .contact .clients {
-  background-color: #F7F7F7;
-}
