@@ -1056,7 +1056,6 @@ section,
 
 
 .about .about-content ul i {
-  background: var(--surface-color);
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
@@ -1746,7 +1745,6 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-wrap {
-  background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
 }
@@ -2003,3 +2001,6 @@ section,
   margin-left: 0.1rem; /* Optional: slight spacing */
 }
 
+.about .contact .clients {
+  background-color: #F7F7F7;
+}
