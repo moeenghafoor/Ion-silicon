@@ -2016,3 +2016,64 @@ section,
 .contact {
   --background-color: #F7F7F7;
 }
+
+.services .service-item {
+  position: relative;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 36px 28px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.4s ease;
+}
+
+/* Hover lift */
+.services .service-item:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 24px 48px rgba(16, 110, 234, 0.12);
+}
+
+/* Icon refinement */
+.services .service-item .icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: rgba(16, 110, 234, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: all 0.4s ease;
+}
+
+/* Icon hover effect */
+.services .service-item:hover .icon {
+  background: #106eea;
+  transform: scale(1.15) rotate(6deg);
+  box-shadow: 0 12px 30px rgba(16, 110, 234, 0.35);
+}
+
+/* Icon color */
+.services .service-item .icon i {
+  color: #106eea;
+  font-size: 26px;
+  transition: color 0.3s ease;
+}
+
+/* Icon color on hover */
+.services .service-item:hover .icon i {
+  color: #ffffff;
+}
+
+/* Title */
+.services .service-item h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Description */
+.services .service-item p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
