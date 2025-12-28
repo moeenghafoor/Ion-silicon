@@ -2037,7 +2037,7 @@ section,
   width: 56px;
   height: 56px;
   border-radius: 14px;
-  background: rgba(16, 110, 234, 0.1);
+  background-color: #F39167;
   display: flex;
   align-items: center;
   justify-content: center;
