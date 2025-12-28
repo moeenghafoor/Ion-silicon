@@ -2047,7 +2047,7 @@ section,
 
 /* Icon hover effect */
 .services .service-item:hover .icon {
-  background: #106eea;
+  background: #F39167;
   transform: scale(1.15) rotate(6deg);
   box-shadow: 0 12px 30px rgba(16, 110, 234, 0.35);
 }
